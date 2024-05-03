@@ -22,6 +22,7 @@ public class ARUIManager : MonoBehaviour
 
     private void Start()
     {
+        print("namanm");
         deassembleBtn.onClick.AddListener(() => 
         {
             arManager.ExplosionModel.DismantleMachine();
